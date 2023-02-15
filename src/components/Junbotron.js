@@ -31,7 +31,7 @@ export const Junbotron = () => {
           <p class="color-ligt">
           <strong>Working Under a great company Codeverse know more <br></br>about ongoing program by click on the button</strong>
           </p>
-          <Button href="nomatch" className="btn btn-light-info md-3">Codevese</Button> 
+          <Button href="nomatch" className="btn btn-light-info md-3">Contant us</Button> 
         </div>
       </div>
     </div>

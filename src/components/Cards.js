@@ -27,7 +27,11 @@ export class Cards extends Component {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center center",
-          minHeight: "100%",
+          
+          width:"100%",
+          justifyContent:"cover"
+          
+          
         }}
       >
         <div class="container-fluid py-9 pl-0 text-light text-aline-center">
@@ -36,11 +40,11 @@ export class Cards extends Component {
             <em>
               <p>I'm Ola</p>A <span>{this.state.sport}</span>
             </em>
-          </h3>
-          <p class="color-ligt">
-          <strong>Working Under a great company Codeverse know more <br></br>about ongoing program by click on the button</strong>
+          </h3><></>
+          <p class="color-dark text-dark">
+          <strong>Working to make a great change </strong>
           </p>
-          <Button href="nomatch" className="btn btn-light-info md-3">Codevese</Button> 
+          <Button href="contact" className="btn btn-light-info md-3">Contact Us</Button> 
         </div>
       </div>
     </div></div>
